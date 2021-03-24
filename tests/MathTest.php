@@ -4,19 +4,21 @@
 	class MathTest extends TestCase {
 
 		public function testDouble(){
-			$this->assertEquals(5,\App\Math::double(2));
+			$this->assertEquals(4,\App\Math::double(2));
 		}
 
 		public function testTTC(){
-			$this->assertEquals(22,\App\Math::TTC(20));
+			$this->assertEquals(24,\App\Math::TTC(20));
 		}
 
 		public function testCompare(){
-			$this->assertEquals(false,\App\Math::compare(20, 20));
+			$this->assertEquals(true,\App\Math::compare(20, 20));
 		}
 
 		public function testCompare2(){
-			$this->assertEquals(false,\App\Math::compare2(6, 4));
+			$this->assertEquals(true,\App\Math::compare2(6, 4));
 		}
+
+
 	}
 ?>
