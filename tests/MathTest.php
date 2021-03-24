@@ -18,7 +18,5 @@
 		public function testCompare2(){
 			$this->assertEquals(false,\App\Math::compare2(6, 4));
 		}
-
-
 	}
 ?>
